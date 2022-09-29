@@ -84,7 +84,7 @@ window.onResize = proc(event: ResizeEvent) =
 var container = newLayoutContainer(Layout_Vertical)
 window.add(container)
 
-var comboBox = newComboBox(@["NumsInc", "NumDec", "Trim First", "Trim Last", "Prefix", "Suffix", "Ext", "Regex"])
+var comboBox = newComboBox(@["NumsInc", "NumsDec", "Trim First", "Trim Last", "Prefix", "Suffix", "Ext", "Regex"])
 comboBox.widthMode = WidthMode_Expand
 container.add(comboBox)
 
